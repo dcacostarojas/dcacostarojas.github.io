@@ -1,5 +1,7 @@
 ---
-title: "Personal Website"
+title: "Diana Carolina Acosta-Rojas"
 ---
 
-Hello, World!
+### Plant ecologist · Conservation scientist
+
+I am a plant ecologist working at the interface of research and conservation. My work explores seed ecology, plant-animal interactions and ecosystem functioning in tropical ecosystems, with the aim of informing science-based conservation strategies. I currently coordinate conservation projects across Latin America as part of the Millennium Seed Bank Partnership at the Royal Botanic Gardens, Kew.
