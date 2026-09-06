@@ -1,12 +1,20 @@
 name: "personal-website"
 output_dir: "."
 navbar:
-  title: "Personal Website"
+  title: "Diana C. Acosta-Rojas"
   left:
     - text: "Home"
       href: index.html
     - text: "About Me"
       href: about.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Science Communication"
+      href: scicomm.html
+    - text: "Seed Resources"
+      href: resources.html
+    - text: "Contact"
+      href: contact.html
 output:
   html_document:
     theme: flatly
