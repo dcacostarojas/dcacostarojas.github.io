@@ -1,0 +1,42 @@
+/* ============================================================
+   styles.css  ·  Estilos personales de Diana C. Acosta-Rojas
+   Se carga DESPUÉS del tema "flatly", por lo que estas reglas
+   tienen prioridad y personalizan el aspecto de la web.
+   ============================================================ */
+
+/* 1) Tipografías (se descargan de Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Source+Sans+3:wght@400;600&display=swap');
+
+/* 2) Tu paleta de verdes (se define una vez y se reutiliza) */
+:root {
+  --sage:      #7E9C86;  /* verde salvia: acentos, bordes, hover */
+  --sage-dark: #4A6B54;  /* versión más oscura y legible: enlaces */
+}
+
+/* 3) Texto del cuerpo */
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* 4) Títulos con una tipografía con más carácter */
+h1, h2, h3, h4, h5 {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+}
+
+/* 5) Enlaces del contenido con tu verde (no toca el menú superior) */
+.main-container a {
+  color: var(--sage-dark);
+}
+.main-container a:hover,
+.main-container a:focus {
+  color: var(--sage);
+}
+
+/* 6) Detalle: una fina línea verde salvia bajo el título principal */
+.main-container h1 {
+  border-bottom: 2px solid var(--sage);
+  padding-bottom: 0.25em;
+}
